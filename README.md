@@ -1,36 +1,36 @@
-# Quick palaeographer
+# Paleografía rápida
 
-This tool is based on OpenSeadragon and Annotorious, and is intended to be used to images of manuscripts. Use SHIFT-click to draw bounding boxes, and tag glyphs. Then, open the annotation sidebar to see all your annotations. They are listed in Sanskrit alphabetical order.
+Esta herramienta está basada en OpenSeadragon y Annotorious, y está pensada para ser utilizada en imágenes de manuscritos. Utilice MAYÚS-clic para dibujar cuadros delimitadores y etiquetar glifos. A continuación, abra la barra lateral de anotaciones para ver todas sus anotaciones. Aparecen en orden alfabético.
 
-This tool was created as part of the [TST project](https://tst.hypotheses.org/), funded by the research program FRAL 2018 (ANR & DFG). The manuscript image in the demonstration is courtesy of the Bibliothèque nationale de France.
+Esta herramienta fue creada como parte del proyecto Amoxcalli. La imagen del manuscrito de la demostración es cortesía de la Bibliothèque nationale de France.
 
 ![demo](demo.gif "demo")
 
-## Usage
+## Uso
 
-Quick palaeographer can be used either online, via [https://chchch.github.io/quick-palaeographer/](https://chchch.github.io/quick-palaeographer/), or offline, by downloading the whole repository and opening the `index.html` file in a web browser. Tested on current versions of Chrome and Firefox.
+Paleografía rápida puede utilizarse fuera de línea, descargando todo el repositorio y abriendo el archivo `index.html` en un navegador web. Probado en las versiones actuales de Chrome y Firefox.
 
-1. Select an image file to load (PNG or JPEG)
-2. Use SHIFT-click to draw boxes around a character.
-3. Give the character some labels. It can have more than one label.
-4. Click OK.
-5. Open the annotations sidebar (button in the top-right corner) to see your annotations.
-6. You can save your annotations in JSON format with the Export button.
-7. You can load your annotations again later (they are also autosaved).
-8. You can open your annotations in a new window (button in the top-right corner) and then save the complete webpage (`Save Page As...` in your browser). Then you can edit it, for example, in LibreOffice Writer.
+1. Seleccione un archivo de imagen para cargar (PNG o JPEG)
+2. Utilice MAYÚS-clic para dibujar recuadros alrededor de un carácter.
+3. Dale al cuadro algunas etiquetas. Puede tener más de una etiqueta.
+4. Pulse OK.
+5. Abre la barra lateral de anotaciones (botón en la esquina superior derecha) para ver tus anotaciones.
+6. Puedes guardar tus anotaciones en formato JSON con el botón Exportar.
+7. Puede volver a cargar sus anotaciones más tarde (también se guardan automáticamente).
+8. Puede abrir sus anotaciones en una nueva ventana (botón en la esquina superior derecha) y luego guardar la página web completa (`Guardar página como...` en su navegador). Después puede editarla, por ejemplo, en LibreOffice Writer.
 
-### Adding annotations from several folia
+### Añadir anotaciones de varios folios
 
-* open the annotations in a new window (top-right button);
-* right-click on the page and "Save As..." the complete webpage to your computer;
-* repeat for all the folios you wish to include;
-* for the last folio, when you open the annotations in a new window, use the "append annotations" function at the top;
-* select one of the HTML files that you saved.
-Save the final HTML file.  You can later open it with, say, LibreOffice and create a document for reference.
+* abrir las anotaciones en una nueva ventana (botón superior derecho);
+* haga clic con el botón derecho en la página y "Guardar como..." la página completa en su ordenador;
+* repita el proceso para todos los folios que desee incluir;
+* para el último folio, cuando abras las anotaciones en una nueva ventana, utiliza la función "añadir anotaciones" de la parte superior;
+* selecciona uno de los archivos HTML que has guardado.
+Guarda el archivo HTML final.  Más tarde podrás abrirlo, por ejemplo, con LibreOffice y crear un documento de referencia.
 
 
-## Example
+## Ejemplo
 
-There is an example image in the `example/` directory, along with annotations. To look at the example, download both the JPEG image and the annotations in JSON format. Load the image in Quick palaeographer. Then, load the annotation file with the Import button.
+Hay una imagen de ejemplo en el directorio `example/`, junto con anotaciones. Para ver el ejemplo, descargue tanto la imagen JPEG como las anotaciones en formato JSON. Cargue la imagen en Paleografía rápida. A continuación, cargue el archivo de anotaciones con el botón Importar.
 
-The example image is the recto side of the second folio from Sanscrit 611, an *Amarakośa* manuscript in old Bengali script. The image is courtesy of the BnF.
+La imagen de ejemplo es el Manuscrito del aperreamiento, un manuscrito del fondo Mexicano de la BnF.
