@@ -4,8 +4,6 @@ Esta herramienta está basada en OpenSeadragon y Annotorious, y está pensada pa
 
 Esta herramienta fue creada como parte del proyecto Amoxcalli. La imagen del manuscrito de la demostración es cortesía de la Bibliothèque nationale de France.
 
-![demo](demo.gif "demo")
-
 ## Uso
 
 Paleografía rápida puede utilizarse fuera de línea, descargando todo el repositorio y abriendo el archivo `index.html` en un navegador web. Probado en las versiones actuales de Chrome y Firefox.
